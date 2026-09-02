@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "matter": {
+    "client": "待填写客户或申请人",
+    "trademark": "待填写商标",
+    "jurisdiction": "待填写法域",
+    "procedure_stage": "待填写程序阶段",
+    "disputed_mark": "待填写争议商标及类别",
+    "evidence_category": "待填写证据类别",
+    "applicant": "待填写申请人"
+  },
+  "source_pdf": "../source/待填写合并证据文件.pdf",
+  "source_sha256": "待填写源文件SHA-256",
+  "guide_pdf": "../source/待填写现行电子证据提交指引.pdf",
+  "guide_sha256": "待填写指引文件SHA-256",
+  "supplemental_sources": {
+    "示例补充来源": {
+      "path": "../source/待填写补充证据.pdf",
+      "sha256": "待填写补充证据SHA-256",
+      "page_count": 1
+    }
+  },
+  "output_docx_name": "YYYY-MM-DD_程序阶段_商标简称_证据说明_类别_v01.docx",
+  "output_catalog_docx_name": "YYYY-MM-DD_程序阶段_商标简称_证据目录_类别_v01.docx",
+  "page_number_policy": {
+    "remove_compilation_physical_pagination": true,
+    "remove_compilation_logical_pagination": true,
+    "preserve_source_intrinsic_pagination": true,
+    "note": "仅删除汇编新增页码；原证据自身固有页眉、页脚和页码不作涂改。"
+  },
+  "items": [
+    {
+      "number": 1,
+      "cover_source_page": 1,
+      "evidence_source_pages": [2, 11],
+      "supplements_before": [],
+      "logical_pages": [1, 10],
+      "title": "待填写证据名称",
+      "source": "待填写证据来源",
+      "fact_to_prove": "待填写待证事实。",
+      "materials": []
+    }
+  ]
+}

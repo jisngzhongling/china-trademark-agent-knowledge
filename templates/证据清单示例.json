@@ -1,0 +1,30 @@
+{
+  "matter": {
+    "client": "待填写客户",
+    "trademark": "待填写商标",
+    "jurisdiction": "待填写法域",
+    "authority": "待填写主管机关",
+    "procedure_stage": "待填写程序阶段",
+    "official_number": "待确认",
+    "version": "v01",
+    "prepared_date": "2026-07-26"
+  },
+  "summary": "本文件为可编辑证据汇编模板。使用时应替换全部待填写或待确认内容，并逐项核对原始证据。",
+  "items": [
+    {
+      "number": "E-001",
+      "title": "示例：官方商标记录",
+      "source_type": "官方记录",
+      "source_name": "待填写官方数据库或公告名称",
+      "url": "https://example.invalid/replace-with-official-source",
+      "file_path": "待填写本地原始证据位置",
+      "query_date": "2026-07-26",
+      "record_no": "待确认",
+      "page_ref": "待确认",
+      "content": "待填写该证据直接证明的客观内容。",
+      "analysis": "待填写代理分析；不得将分析表述为官方事实。",
+      "uncertainty": "待填写尚未核实的事项。",
+      "image_paths": []
+    }
+  ]
+}
